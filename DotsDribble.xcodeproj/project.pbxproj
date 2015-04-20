@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF839A0A1AE5927900A60252 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF839A091AE5927900A60252 /* CircleLayout.m */; };
+		FF839A0D1AE5947C00A60252 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF839A0C1AE5947C00A60252 /* Cell.m */; };
+		FF839A101AE59C0E00A60252 /* DotCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF839A0F1AE59C0E00A60252 /* DotCollectionView.m */; };
+		FF9719771AE57D750036A13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9719761AE57D750036A13F /* main.m */; };
+		FF97197A1AE57D750036A13F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9719791AE57D750036A13F /* AppDelegate.m */; };
+		FF97197D1AE57D750036A13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97197C1AE57D750036A13F /* ViewController.m */; };
+		FF9719821AE57D750036A13F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9719811AE57D750036A13F /* Images.xcassets */; };
+		FF9719851AE57D750036A13F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9719831AE57D750036A13F /* LaunchScreen.xib */; };
+		FF9719911AE57D750036A13F /* DotsDribbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9719901AE57D750036A13F /* DotsDribbleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF97198B1AE57D750036A13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9719691AE57D750036A13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9719701AE57D750036A13F;
+			remoteInfo = DotsDribble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF839A081AE5927900A60252 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		FF839A091AE5927900A60252 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		FF839A0B1AE5947C00A60252 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		FF839A0C1AE5947C00A60252 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		FF839A0E1AE59C0E00A60252 /* DotCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotCollectionView.h; sourceTree = "<group>"; };
+		FF839A0F1AE59C0E00A60252 /* DotCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotCollectionView.m; sourceTree = "<group>"; };
+		FF9719711AE57D750036A13F /* DotsDribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotsDribble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9719751AE57D750036A13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9719761AE57D750036A13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9719781AE57D750036A13F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9719791AE57D750036A13F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF97197B1AE57D750036A13F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF97197C1AE57D750036A13F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9719811AE57D750036A13F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9719841AE57D750036A13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF97198A1AE57D750036A13F /* DotsDribbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotsDribbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF97198F1AE57D750036A13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9719901AE57D750036A13F /* DotsDribbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotsDribbleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF97196E1AE57D750036A13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9719871AE57D750036A13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9719681AE57D750036A13F = {
+			isa = PBXGroup;
+			children = (
+				FF839A0B1AE5947C00A60252 /* Cell.h */,
+				FF839A0C1AE5947C00A60252 /* Cell.m */,
+				FF9719731AE57D750036A13F /* DotsDribble */,
+				FF97198D1AE57D750036A13F /* DotsDribbleTests */,
+				FF9719721AE57D750036A13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9719721AE57D750036A13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9719711AE57D750036A13F /* DotsDribble.app */,
+				FF97198A1AE57D750036A13F /* DotsDribbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9719731AE57D750036A13F /* DotsDribble */ = {
+			isa = PBXGroup;
+			children = (
+				FF9719781AE57D750036A13F /* AppDelegate.h */,
+				FF9719791AE57D750036A13F /* AppDelegate.m */,
+				FF97197B1AE57D750036A13F /* ViewController.h */,
+				FF97197C1AE57D750036A13F /* ViewController.m */,
+				FF9719811AE57D750036A13F /* Images.xcassets */,
+				FF9719831AE57D750036A13F /* LaunchScreen.xib */,
+				FF9719741AE57D750036A13F /* Supporting Files */,
+				FF839A081AE5927900A60252 /* CircleLayout.h */,
+				FF839A091AE5927900A60252 /* CircleLayout.m */,
+				FF839A0E1AE59C0E00A60252 /* DotCollectionView.h */,
+				FF839A0F1AE59C0E00A60252 /* DotCollectionView.m */,
+			);
+			path = DotsDribble;
+			sourceTree = "<group>";
+		};
+		FF9719741AE57D750036A13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9719751AE57D750036A13F /* Info.plist */,
+				FF9719761AE57D750036A13F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF97198D1AE57D750036A13F /* DotsDribbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9719901AE57D750036A13F /* DotsDribbleTests.m */,
+				FF97198E1AE57D750036A13F /* Supporting Files */,
+			);
+			path = DotsDribbleTests;
+			sourceTree = "<group>";
+		};
+		FF97198E1AE57D750036A13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF97198F1AE57D750036A13F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9719701AE57D750036A13F /* DotsDribble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9719941AE57D760036A13F /* Build configuration list for PBXNativeTarget "DotsDribble" */;
+			buildPhases = (
+				FF97196D1AE57D750036A13F /* Sources */,
+				FF97196E1AE57D750036A13F /* Frameworks */,
+				FF97196F1AE57D750036A13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotsDribble;
+			productName = DotsDribble;
+			productReference = FF9719711AE57D750036A13F /* DotsDribble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9719891AE57D750036A13F /* DotsDribbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9719971AE57D760036A13F /* Build configuration list for PBXNativeTarget "DotsDribbleTests" */;
+			buildPhases = (
+				FF9719861AE57D750036A13F /* Sources */,
+				FF9719871AE57D750036A13F /* Frameworks */,
+				FF9719881AE57D750036A13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF97198C1AE57D750036A13F /* PBXTargetDependency */,
+			);
+			name = DotsDribbleTests;
+			productName = DotsDribbleTests;
+			productReference = FF97198A1AE57D750036A13F /* DotsDribbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9719691AE57D750036A13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Conor Linehan";
+				TargetAttributes = {
+					FF9719701AE57D750036A13F = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FF9719891AE57D750036A13F = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FF9719701AE57D750036A13F;
+					};
+				};
+			};
+			buildConfigurationList = FF97196C1AE57D750036A13F /* Build configuration list for PBXProject "DotsDribble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9719681AE57D750036A13F;
+			productRefGroup = FF9719721AE57D750036A13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9719701AE57D750036A13F /* DotsDribble */,
+				FF9719891AE57D750036A13F /* DotsDribbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF97196F1AE57D750036A13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9719851AE57D750036A13F /* LaunchScreen.xib in Resources */,
+				FF9719821AE57D750036A13F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9719881AE57D750036A13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF97196D1AE57D750036A13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF839A0D1AE5947C00A60252 /* Cell.m in Sources */,
+				FF97197D1AE57D750036A13F /* ViewController.m in Sources */,
+				FF839A101AE59C0E00A60252 /* DotCollectionView.m in Sources */,
+				FF839A0A1AE5927900A60252 /* CircleLayout.m in Sources */,
+				FF97197A1AE57D750036A13F /* AppDelegate.m in Sources */,
+				FF9719771AE57D750036A13F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9719861AE57D750036A13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9719911AE57D750036A13F /* DotsDribbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF97198C1AE57D750036A13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9719701AE57D750036A13F /* DotsDribble */;
+			targetProxy = FF97198B1AE57D750036A13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9719831AE57D750036A13F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9719841AE57D750036A13F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9719921AE57D760036A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9719931AE57D760036A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9719951AE57D760036A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotsDribble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF9719961AE57D760036A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DotsDribble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF9719981AE57D760036A13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DotsDribbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotsDribble.app/DotsDribble";
+			};
+			name = Debug;
+		};
+		FF9719991AE57D760036A13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DotsDribbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotsDribble.app/DotsDribble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF97196C1AE57D750036A13F /* Build configuration list for PBXProject "DotsDribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9719921AE57D760036A13F /* Debug */,
+				FF9719931AE57D760036A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9719941AE57D760036A13F /* Build configuration list for PBXNativeTarget "DotsDribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9719951AE57D760036A13F /* Debug */,
+				FF9719961AE57D760036A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9719971AE57D760036A13F /* Build configuration list for PBXNativeTarget "DotsDribbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9719981AE57D760036A13F /* Debug */,
+				FF9719991AE57D760036A13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9719691AE57D750036A13F /* Project object */;
+}
